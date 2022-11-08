@@ -1,0 +1,52 @@
+@import "../../styles/variables";
+
+.header {
+  height: 93px;
+  background-color: $blue;
+  border-bottom: 1px solid $blue;
+  box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.25);
+
+  &_info {
+    width: 1125px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &_logo {
+    margin-left: 34px;
+    margin-top: 10px;
+  }
+
+  &_menu {
+    width: 268px;
+    margin-left: 708px;
+    margin-top: 26px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      display: flex;
+
+      .link_line {
+        display: none;
+        width: 100%;
+        margin-top: 10px;
+        border: 2px solid #cfdab0;
+        border-radius: 8px;
+        background-color: #cfdab0;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .activeLink .link_line {
+        display: block;
+      }
+
+      li {
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}

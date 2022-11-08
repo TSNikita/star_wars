@@ -1,0 +1,123 @@
+@import "../../styles/variables";
+
+.card {
+  width: 352px;
+  height: 136px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &_info {
+    margin-left: 26px;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: $color_text;
+    text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+    margin: 0;
+    padding-top: 6px;
+    margin-bottom: 12px;
+  }
+
+  &_size {
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+  }
+
+  &_height {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 3px solid $color_text;
+    margin-bottom: 5px;
+  }
+
+  &_mass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 3px solid $color_text;
+    margin-bottom: 5px;
+  }
+
+  h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $color_text;
+  }
+
+  span {
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #4b4b4b;
+    margin: 0;
+  }
+
+  &_block--info {
+    display: flex;
+
+    align-items: center;
+    margin-top: 11px;
+  }
+
+  &_floor {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 16px;
+    background: #73d677;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 11px;
+    margin-right: 13px;
+
+    .floor--span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: $color_text;
+    }
+  }
+
+  &_birthDate {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 16px;
+    background: #07d6f2;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 11px;
+
+    .birthDate--span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: $color_text;
+    }
+  }
+}

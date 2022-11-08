@@ -1,0 +1,60 @@
+.home {
+  background-color: rgba(31, 42, 99, 1);
+  &_banner {
+    display: flex;
+    position: relative;
+    width: 1125px;
+    margin: 0 auto;
+    padding-bottom: 246px;
+  }
+
+  &_text {
+    width: 516px;
+    height: 567px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 128px;
+
+    h1 {
+      font-family: Karla;
+      margin: 0px 0px 0px 34px;
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 84px;
+      letter-spacing: 4px;
+      text-align: left;
+    }
+    h2 {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 37px;
+      margin: 64px 0px 64px 34px;
+    }
+  }
+
+  &_button {
+    width: 231px;
+    height: 66px;
+    background-color: rgba(255, 193, 7, 1);
+    border-radius: 8px;
+    color: rgba(33, 33, 33, 1);
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    stroke: rgba(0, 0, 0, 1);
+    margin-left: 34px;
+    box-shadow: inset 0px -7px 0px 0px rgb(188 148 30);
+    cursor: pointer;
+  }
+
+  &_img {
+    width: 793px;
+    position: absolute;
+    right: -189px;
+    top: 107px;
+    bottom: 145px;
+  }
+}

@@ -1,0 +1,44 @@
+.modal {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 33, 33, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  //   transition: 0.5s;
+
+  &_content {
+    display: block;
+    width: 797px;
+    height: 375px;
+    border-radius: 16px;
+    transition: 0.4s all;
+    animation: scale 1s forwards;
+    background-color: rgba(31, 42, 99, 1);
+    position: relative;
+
+    svg {
+      position: absolute;
+      right: 0;
+      top: -37px;
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
